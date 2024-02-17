@@ -1,0 +1,81 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: lightgray;
+}
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    padding: 10px;
+}
+.input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+    padding-left: 18px;
+}
+.input-section input[type="text"], .input-section input[type="number"], .input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .input-section button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #add-btn{
+    margin-right: 15px;
+  }
+  .expenses-list {
+    margin: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  th, td {
+    width: 25%;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  tr {
+    height: 40px;
+    overflow: hidden;
+    justify-content: space-between;
+   }
+  tfoot td {
+    font-weight: bold;
+  }
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .edit-btn {
+    margin-left: 10px; 
+}
+  .delete-btn{
+    margin-left: 9px;
+  }
+  #submit-container {
+    display: flex;
+    justify-content: center;
+}
